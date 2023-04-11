@@ -1,0 +1,32 @@
+For Input: 
+5
+Your Output: 
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+Expected Output: 
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+Code:
+
+gfg code for Pattern 3(striver)
+
+class Solution {
+  public:
+    void printTriangle(int n) {
+        // code here
+            for(int i=1; i< n+1; i++){
+                for(int j = 1; j<i+1; j++){
+                    cout<<j<<" ";
+                }
+            cout<<endl;
+
+            }
+            }
+};
